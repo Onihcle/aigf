@@ -92,6 +92,6 @@ def main():
 
     app.run_polling()
 
-if name == '_main_':
+if name == 'main':
     main()
 
