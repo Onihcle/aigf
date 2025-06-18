@@ -1,4 +1,4 @@
-```python
+python
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
@@ -92,6 +92,6 @@ def main():
 
     app.run_polling()
 
-if name == 'main':
+if name == '_main_':
     main()
-```
+
